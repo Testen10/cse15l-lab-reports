@@ -9,10 +9,8 @@
   </code></pre>
 </li>
   
-<blockquote>
   changes the current directory to `User/admin` folder
  <br>working directory: `User/admin` 
-</blockquote>
 
 <li><p> Command with path to a directory as an argument </p>
   <pre><code>
@@ -22,10 +20,8 @@
   </code></pre>
 </li>
 
-<blockquote>
   changes the current directory to the inputted directory path
   <br>working directory: `/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L/lecture1`
-</blockquote>
 
 <li><p> Command with path to a file as an argument </p>
   <pre><code>
@@ -34,10 +30,8 @@
   </code></pre>
 </li>
 
-<blockquote>
   prints out error message since file is not a directory
   <br>working directory: `/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L/lecture1`
-</blockquote>
 </ol>
 
 ## ls
@@ -51,10 +45,8 @@
   </code></pre>
 </li>
 
-<blockquote>
   prints the list of files in the current directory
   <br>working directory: `/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L`
-</blockquote>
   
 <li><p> Command with path to a directory as an argument </p>
   <pre><code>
@@ -65,10 +57,8 @@
   </code></pre>
 </li>
 
-<blockquote>
   prints the list of files in the directory referring to the inputted directory path, but doesn't change the working directory
   <br>working directory: `/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L`
-</blockquote>
   
 <li><p> Command with path to a file as an argument </p>
   <pre><code>
@@ -79,9 +69,7 @@
   </code></pre>
 </li>
 
-<blockquote>
   prints the name of file in the inputted path, but doesn't change the working directory
   <br>working directory: `/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L`
-</blockquote>
 
 </ol>
