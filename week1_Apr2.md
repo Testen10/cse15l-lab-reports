@@ -115,7 +115,7 @@
 </li>
 
 <blockquote>
-  prints message "cat: <directory name>: Is a directory"
+  prints message "cat: <directory's name>: Is a directory"
   <br>working directory: <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L`</code>
 </blockquote>
   
