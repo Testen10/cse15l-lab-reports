@@ -86,3 +86,51 @@
 </blockquote>
 
 </ol>
+
+## cat
+<ol>
+<li><p> Command with no arguments </p>
+  <pre><code>
+    (base) ➜  CSE 15L git:(master) ✗ cat
+    hello
+    hello
+    ^C
+    (base) ➜  CSE 15L git:(master) ✗ pwd
+    /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
+  </code></pre>
+</li>
+
+<blockquote>
+  prints the content I inputted in the terminal
+  <br>working directory: <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
+</blockquote>
+  
+<li><p> Command with path to a directory as an argument </p>
+  <pre><code>
+    (base) ➜  CSE 15L git:(master) ✗ cat lecture1
+    cat: lecture1: Is a directory
+    (base) ➜  CSE 15L git:(master) ✗ pwd                         
+    /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
+  </code></pre>
+</li>
+
+<blockquote>
+  prints message "cat: <directory name>: Is a directory"
+  <br>working directory: <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L`</code>
+</blockquote>
+  
+<li><p> Command with path to a file as an argument </p>
+  <pre><code>
+    (base) ➜  CSE 15L git:(＜PA3＞) ✗ cat lecture1/messages/ko.txt
+    안녕하세요%                
+    (base) ➜  CSE 15L git:(＜PA3＞) ✗ pwd
+    /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
+  </code></pre>
+</li>
+
+<blockquote>
+  prints the content of the file
+  <br>working directory: <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
+</blockquote>
+
+</ol>
