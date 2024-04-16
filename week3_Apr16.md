@@ -58,5 +58,9 @@ class ChatServer {
 }
 
 ```
+</p>
 
+<h2>Screenshots</h2>
+<p>
+  ![Main Page](./week3_home1.png)
 </p>
