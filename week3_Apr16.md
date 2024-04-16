@@ -60,3 +60,6 @@ class ChatServer {
 
 <h2>Screenshots</h2>
   ![Main Page](./week3_home1.png)
+  ![Main Page](./week3_add1.png)
+  ![Main Page](./week3_add2.png)
+  ![Main Page](./week3_home2.png)
