@@ -60,4 +60,12 @@ class ChatServer {
 
 <h2>Screenshots</h2>
   ![Main Page](./week3_add1.png)
+  <p>
+    <ol>
+      <li> Which methods in your code are called?
+      <br> >handleRequest is called</li>
+      <li> What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+      <br> > </li>
+      <li> How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+      <br> > </li>
   ![Main Page](./week3_add2.png)
