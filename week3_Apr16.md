@@ -65,7 +65,9 @@ class ChatServer {
 ```
 
 <h2>Screenshots</h2>
-  ![Main Page](./week3_add1.png)
+  
+  ![Main Page](./add1.png)
+  
   <p>
     <ol>
       <li> Which methods in your code are called?
@@ -76,8 +78,10 @@ class ChatServer {
       <br> > It adds a String[] to <code>chat_log</code>, where <code>new String[]={"Min", "Hello"}</code></li>
     </ol>
   </p>
-  ![Main Page](./week3_add2.png)
-    <p>
+  
+  ![Main Page](./add2.png)
+  
+  <p>
     <ol>
       <li> Which methods in your code are called?
       <br> > addMessage is called</li>
