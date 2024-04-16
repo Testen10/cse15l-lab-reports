@@ -1,4 +1,4 @@
-<h1> Part 1</h1>
+<h1>Part 1</h1>
 <h2> ChatServer.java code</h2>
   
 ```
@@ -91,3 +91,5 @@ class ChatServer {
       <br> > It adds a String[] to <code>chat_log</code>, where <code>new String[]={"Seo", "Nice to meet you"}</code></li>
     </ol>
   </p>
+
+<h1>Part 2</h1>
