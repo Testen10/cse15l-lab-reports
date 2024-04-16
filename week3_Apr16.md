@@ -93,3 +93,7 @@ class ChatServer {
   </p>
 
 <h1>Part 2</h1>
+
+![Image](./terminal_pubK.png)
+![Image](./terminal_authorK.png)
+![Image](./terminal_woutPW.png)
