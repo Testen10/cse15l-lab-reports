@@ -1,6 +1,5 @@
 <h1> Part 1</h1>
 <h2> ChatServer.java code</h2>
-<p>
   
 ```
 import java.io.IOException;
@@ -58,9 +57,6 @@ class ChatServer {
 }
 
 ```
-</p>
 
 <h2>Screenshots</h2>
-<p>
   ![Main Page](./week3_home1.png)
-</p>
