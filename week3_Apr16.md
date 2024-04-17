@@ -97,3 +97,10 @@ class ChatServer {
 ![Image](./terminal_pubK.png)
 ![Image](./terminal_authorK.png)
 ![Image](./terminal_woutPW.png)
+
+<h1>Part 3</h1>
+<p>
+In 2-3 sentences, describe something you learned from lab in week 2 or 3 that you didn't know before.
+I learned how to host a website both in a local computer and in a remote server.
+I also learned how to extract a path and query in VScode.
+in VScode.
