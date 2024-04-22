@@ -17,7 +17,7 @@
   <br>working directory(after executing the command): <code>User/admin</code>
 </blockquote>
 
-<li><p> Command with path to a directory as an argument </p>
+<li><p> Command with path to a directory as an argument (produces error in particular case) </p>
   <pre><code>
     (base) ➜  CSE 15L git:(main) ✗ pwd 
     /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
@@ -36,7 +36,7 @@
    <br>working directory(after executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L/lecture1</code>
 </blockquote>
 
-<li><p> Command with path to a file as an argument </p>
+<li><p> Command with path to a file as an argument (produces error) </p>
   <pre><code>
     (base) ➜  lecture1 git:(main) ✗ pwd 
     /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L/lecture1
@@ -72,7 +72,7 @@
   <br>working directory (after executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
 </blockquote>
   
-<li><p> Command with path to a directory as an argument </p>
+<li><p> Command with path to a directory as an argument (produces error in particular case) </p>
   <pre><code>
     (base) ➜  CSE 15L git:(main) ✗ pwd 
     /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
@@ -92,7 +92,7 @@
   <br>working directory (after executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
 </blockquote>
   
-<li><p> Command with path to a file as an argument </p>
+<li><p> Command with path to a file as an argument (produces error in particular case) </p>
   <pre><code>
     (base) ➜  CSE 15L git:(main) ✗ pwd 
     /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
@@ -107,7 +107,7 @@
 
 <blockquote>
   The command prints the name of file in the inputted path, but doesn't change the working directory.
-  <br> If the isn't a corresponding directory, it gives out error: "ls: (file name) : No such file or directory"
+  <br> If there isn't a corresponding file, it gives out error: "ls: (file name) : No such file or directory"
   <br>
   <br>working directory(before executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
   <br>working directory (after executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
@@ -136,7 +136,7 @@
   <br>working directory (after executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
 </blockquote>
   
-<li><p> Command with path to a directory as an argument </p>
+<li><p> Command with path to a directory as an argument (produces error) </p>
   <pre><code>
     (base) ➜  CSE 15L git:(main) ✗ pwd 
     /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
@@ -153,7 +153,7 @@
   <br>working directory (after executing the command): <code>/Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L</code>
 </blockquote>
   
-<li><p> Command with path to a file as an argument </p>
+<li><p> Command with path to a file as an argument (produces error in particular case) </p>
   <pre><code>
     (base) ➜  CSE 15L git:(main) ✗ pwd 
     /Users/admin/Documents/Documents_Minseo_Chu_MacBook/ucsd_docs/CSE 15L
