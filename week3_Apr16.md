@@ -71,7 +71,7 @@ class ChatServer {
   <p>
     <ol>
       <li> Which methods in your code are called?
-      <br> First handleRequest() is called.
+      <br> > First handleRequest() is called.
         <br> Then, since the path contains "/add-message", addMessage(queries) is called</li>
       <li> What are the relevant arguments to those methods, and the values of any relevant fields of the class?
       <br> > The argument is <code>String[] queries</code>, which contains <code>"s=Hello"</code> and <code>"user=Min"</code> </li>
@@ -85,7 +85,7 @@ class ChatServer {
   <p>
     <ol>
       <li> Which methods in your code are called?
-      <br> > <br> First handleRequest() is called.
+      <br> > First handleRequest() is called.
         <br> Then, since the path contains "/add-message", addMessage(queries) is called</li>
       <li> What are the relevant arguments to those methods, and the values of any relevant fields of the class?
       <br> > The argument is <code>String[] queries</code>, which contains <code>"s=Nice to meet you"</code> and <code>"user=Seo"</code> </li>
