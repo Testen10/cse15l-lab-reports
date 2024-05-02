@@ -3,25 +3,25 @@
 <ol>
   <li> A failure-inducing input for the buggy program, as a JUnit test and any associated code</li>
   
-```
+<code>
     @Test 
     public void testReverseInPlace1() {
       int[] input1 = { 1,2,3 };
       ArrayExamples.reverseInPlace(input1);
       assertArrayEquals(new int[]{ 3,2,1 }, input1);
 	  }
-```
+</code>
 
   <li> An input that doesn't induce a failure, as a JUnit test and any associated code</li>
     
-```
+<code>
     @Test 
     public void testReverseInPlace2() {
       int[] input1 = { 3 };
       ArrayExamples.reverseInPlace(input1);
       assertArrayEquals(new int[]{ 3 }, input1);
     }
-```
+</code>
   
   <li> The symptom, as the output of running the two tests above.</li>
   
@@ -30,7 +30,7 @@
   <li> The bug, as the before-and-after code change required to fix it.
   <br> Before:
 
-```
+<code>
     
     static int[] reversed(int[] arr) {
       int[] newArray = new int[arr.length];
@@ -40,13 +40,13 @@
       return arr;
     }
       
-```
-  <br> If this method is executed, elements in ```newArray[arr.length - i - 1]``` is applied to the ```arr[i]
-  ``` changes. Therefore, all elements in ```arr``` becomes null not being reversed.
+</code>
+
+  <br> If this method is executed, elements in <code>newArray[arr.length - i - 1]</code> is applied to the <code>arr[i]</code>. Therefore, all elements in <code>arr</code> becomes null not being reversed.
 
   <br> After:
 
-```
+<code>
     
     static int[] reversed(int[] arr) {
       int[] newArray = new int[arr.length];
@@ -58,7 +58,7 @@
       return newArray;
     }
       
-```
+</code>
     
   </li>
     
@@ -78,30 +78,30 @@ The command is used to find a directory or a file.
   <li> <code> -empty </code>: finding files that are empty or its size is 0. </li>
     <br> example:
     
-```
+<code>
     (base) ➜  docsearch git:(main) ✗ find ./technical/911report/ -empty
     (base) ➜  docsearch git:(main) ✗ find ./technical/911report/chapter-1.txt -empty
-```
-  > Since ```911report``` doesn't have an empty file, nothing is printed.
-  <br>> Since ```chapter-1.txt``` isn't an empty file, nothing is printed.
+</code>
+  > Since <code>911report</code> doesn't have an empty file, nothing is printed.
+  <br>> Since <code>chapter-1.txt</code> isn't an empty file, nothing is printed.
       
   <li> <code> -exec </code>: execute the inputted command that is written after the option. </li>
     <br> example:
       
-  ```
+<code>
       (base) ➜  docsearch git:(main) ✗ find ./technical/911report/ -exec ls  {} > result.txt \;
       (base) ➜  docsearch git:(main) ✗ find ./technical/911report/*.txt -exec cat {} > result2.txt \;
-  ```  
+</code>
   ![Screenshot](./week5_sc2.png)
   ![Screenshot](./week5_sc2_2.png)  
       
-  > The command line executes ```ls``` command, using the result of ```find ./technical/911report/``` as argument and saves it in the new file ```result.txt```.
-  <br>> The command line executes ```cat``` command, using the result of ```find ./technical/911report/*.txt``` as argument and saves it in the new file ```result2.txt```.
+  > The command line executes <code>ls</code> command, using the result of <code>find ./technical/911report/</code> as argument and saves it in the new file <code>result.txt</code>.
+  <br>> The command line executes <code>cat</code> command, using the result of <code>find ./technical/911report/*.txt</code> as argument and saves it in the new file <code>result2.txt</code>.
   
   <li> <code> -type </code>: finding files which matches with the inputted type. </li>
   <br> example:
       
-  ```
+  <code>
       (base) ➜  docsearch git:(main) ✗ find ./technical/911report/ -type f   
       ./technical/911report//chapter-13.4.txt
       ./technical/911report//chapter-13.5.txt
@@ -125,7 +125,7 @@ The command is used to find a directory or a file.
       (base) ➜  docsearch git:(main) ✗ find ./technical/911report/chapter-11.txt  -type f
       ./technical/911report/chapter-11.txt
       (base) ➜  docsearch git:(main) ✗ find ./technical/911report/chapter-11.txt  -type d
-  ```   
+  </code>  
       
   > Executing the first command line, only file paths are printed, executing the directory path.
   <br>> Executing the second command line, only the directory path is printed, executing all file paths.
@@ -135,12 +135,12 @@ The command is used to find a directory or a file.
   <li> <code> -print0 </code>: print the found file in the terminal. The result is separated by 'null'</li>
   <br> example:
     
-```
+<code>
     (base) ➜  docsearch git:(main) ✗ find ./technical/911report/ -print0                
     ./technical/911report/./technical/911report//chapter-13.4.txt./technical/911report//chapter-13.5.txt./technical/911report//chapter-13.1.txt./technical/911report//chapter-13.2.txt./technical/911report//chapter-13.3.txt./technical/911report//chapter-3.txt./technical/911report//chapter-2.txt./technical/911report//chapter-1.txt./technical/911report//chapter-5.txt./technical/911report//chapter-6.txt./technical/911report//chapter-7.txt./technical/911report//chapter-9.txt./technical/911report//chapter-8.txt./technical/911report//preface.txt./technical/911report//chapter-12.txt./technical/911report//chapter-10.txt./technical/911report//chapter-11.txt%                                                                                                   
     (base) ➜  docsearch git:(main) ✗ find ./technical/911report/chapter-11.txt -print0
     ./technical/911report/chapter-11.txt%
-```
+</code>
   > Executing the first command, all directories and files in the inputted path are printed on one line without being separated.
   <br>> Executing the second command, the file path is printed.
                                                                                                  
