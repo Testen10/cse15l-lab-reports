@@ -4,27 +4,23 @@
   <li> A failure-inducing input for the buggy program, as a JUnit test and any associated code</li>
   
     ```
-  
     @Test 
-	  public void testReverseInPlace1() {
+    public void testReverseInPlace1() {
       int[] input1 = { 1,2,3 };
       ArrayExamples.reverseInPlace(input1);
       assertArrayEquals(new int[]{ 3,2,1 }, input1);
 	  }
-    
     ```
 
   <li> An input that doesn't induce a failure, as a JUnit test and any associated code</li>
     
     ```
-      
     @Test 
     public void testReverseInPlace2() {
       int[] input1 = { 3 };
       ArrayExamples.reverseInPlace(input1);
       assertArrayEquals(new int[]{ 3 }, input1);
     }
-    
     ```
   
   <li> The symptom, as the output of running the two tests above.</li>
