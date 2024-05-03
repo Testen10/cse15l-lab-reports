@@ -1,5 +1,15 @@
 # Week 5 Lab Report
 ## Part 1: Bugs from week 4
+
+```
+@Test 
+public void testReverseInPlace1() {
+	int[] input1 = { 1,2,3 };
+	ArrayExamples.reverseInPlace(input1);
+	assertArrayEquals(new int[]{ 3,2,1 }, input1);
+}
+```
+
 <ol>
   <li> A failure-inducing input for the buggy program, as a JUnit test and any associated code</li>
   
