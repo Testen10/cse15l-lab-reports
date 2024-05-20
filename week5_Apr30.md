@@ -140,4 +140,4 @@ The command is used to find a directory or a file.
 <br>	> Executing the first command, all directories and files in the inputted path are printed on one line without being separated.
 <br>	> Executing the second command, the file path is printed.
                                                                                                  
-Found the information by browsing on the internet (<a href="https://recipes4dev.tistory.com/156">link</a>).
+Found the information by browsing on the internet (<a href="https://recipes4dev.tistory.com/156">https://recipes4dev.tistory.com/156)</a>.
